@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Abril-reg;
+  src: url(../fonts/AbrilFatface-Regular.ttf);
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: Abril-reg;
+}
+.container {
+  width: 20%;
+  margin: auto;
+}
+section {
+  position: relative;
+}
+img {
+  margin-top: -5px;
+}
+.name, .name span {
+  font-family: AbrilFatface-Regular;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.name span {
+  color: brown;
+}
